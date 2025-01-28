@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+
+body {
+    font-family: "Work Sans", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    height: 920px;
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    align-items: center;
+    width: 1024px;
+    height: 390px;
+    color: white;
+    text-align: center;
+}
+
+
+.hero-heading {
+    opacity: 0.8;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.hero-description {
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 32px;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+
+.card {
+    width: 425px;
+    height: 522px;
+}
+.img-container img{
+    width: 100%;
+}
+.img-container {
+    margin-bottom: 32px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.food-title{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px;
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.card-details h3 {
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+}
+
+.card-details p{
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.food-container{
+    display: flex;
+    justify-content: space-between;
+}
+.food{
+    width: 1320px;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+}
+.food p{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.food h1{
+    color: rgb(16, 16, 16);
+    margin-bottom: 48px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+.food-container{
+    margin-bottom: 64px;
+}
